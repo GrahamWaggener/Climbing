@@ -1,8 +1,10 @@
-[![pandas version](https://pypi.org/project/pandas/1.3.5)]
-[![plotly version](https://pypi.org/project/plotly/5.4.0)]
-[![Mountain Project](https://www.mountainproject.com)]
+Pandas version: 1.3.5
+Plotly version: 5.4.0
+Mountain Project: https://www.mountainproject.com
 
 Climbing Route Mapper
 
 This code takes a CSV file of climbing route data downloaded from any selected location in Mountain Project and overlays the data on an interactive map. 
-When a route is hovered over with the mouse, it will display the route name, rating, and the state in which the route is located
+When a route is hovered over with the mouse, it will display the route name, rating, and the state in which the route is located. The location included 
+in the CSV is too long and lists the state last, so the code will automatically trim the rest of the information and only include the state. The code 
+can be useful to see relative locations of routes and plan trips to climb.
